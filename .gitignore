@@ -1,0 +1,43 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Miscellaneous
+.DS_Store
+.vscode/
+.idea/
+*.log
+*.lock
+
+# Build tools
+.cache/
+.eslintcache
+
+# React-specific
+/webpack-stats.json
+/public/static/
+
+# Tailwind-specific
+.postcssrc
+.tailwind.config.js
